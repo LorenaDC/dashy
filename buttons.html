@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>Adventure time: Dashboard</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/adventure-time-theme.css" rel="stylesheet">
+    <link href="css/adventure-time-theme-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+  <!--Inserta tu codigo aqui-->
+  <header class="header black-bg">
+  <div class="container-fluid">
+    <div class="sidebar-toggle-box"><i class="fa fa-bars"></i></div>
+      <a href="dashboard.html" class="logo hidden-xs"><b>ADVENTURE TIME: DASHBOARD</b></a>
+      <a href="dashboard.html" class="logo visible-xs"><b>ADV.TIME</b></a>
+      <ul class="top-menu pull-right">
+        <li><a class="logout" href="login.html">Logout</a></li>
+      </ul>
+  </div>
+  </header>
+  <div class="nav-collapse" id="sidebar">
+    <ul class="sidebar-menu">
+      <p class="text-center">
+        <a href="profile.html">
+          <img class="img-circle" width="60" src="img/profile_avatar.png">
+        </a>
+      </p>
+      <h5 class="text-center">Bonnibel Bubblegum</h5>
+      <li class="sub-menu">
+        <a href="dashboard.html">
+          <i class="fa fa-tachometer"></i>
+          <span>Dashboard</span>
+        </a>
+      </li>
+      <li class="sub-menu">
+        <a class="active" href="buttons.html">
+          <i class="fa fa-desktop"></i>
+          <span>Buttons</span>
+        </a>
+      </li>
+      <li class="sub-menu">
+        <a href="progress.html">
+          <i class="fa fa-desktop"></i>
+          <span>Pogress Bars</span>
+        </a>
+      </li>
+      <li class="sub-menu">
+        <a href="form_component.html">
+          <i class="fa fa-cogs"></i>
+          <span>Forms</span>
+        </a>
+      </li>
+      <li class="sub-menu">
+        <a href="basic_tables.html">
+          <i class="fa fa-th"></i>
+          <span>Data Tables</span>
+        </a>
+      </li>
+      <li class="sub-menu">
+        <a href="gallery.html">
+          <i class="fa fa-tasks"></i>
+          <span>Gallery</span>
+        </a>
+      </li>
+      <li class="sub-menu">
+        <a href="login.html">
+          <i class="fa fa-book"></i>
+          <span>Login Pakes</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <section id="container">
+    <div id="main-content">
+      <div class="wrapper pt-25">
+        <div class="row">
+          <div class="col-lg-6 col-xs-12">
+            <div class="showback">
+              <h4>
+                <i class="fa fa-angle-right"></i>
+                <span>Basic Buttons</span>
+              </h4>
+              <button type="button" class="btn btn-default">Default</button>
+              <button type="button" class="btn btn-primary">Primary</button>
+              <button type="button" class="btn btn-success">Success</button>
+              <button type="button" class="btn btn-info">Info</button>
+              <button type="button" class="btn btn-warning">Warning</button>
+              <button type="button" class="btn btn-danger">Danger</button>
+            </div>
+            <div class="showback">
+              <h4>
+                <i class="fa fa-angle-right"></i>
+                <span>Basic Round</span>
+              </h4>
+              <button type="button" class="btn btn-default">Default</button>
+              <button type="button" class="btn btn-primary">Primary</button>
+              <button type="button" class="btn btn-success">Success</button>
+              <button type="button" class="btn btn-info">Info</button>
+              <button type="button" class="btn btn-warning">Warning</button>
+              <button type="button" class="btn btn-danger">Danger</button>
+            </div>
+            <div class="showback">
+              <h4>
+                <i class="fa fa-angle-right"></i>
+                <span>Theme Buttons</span>
+              </h4>
+              <button type="button" class="btn">Theme</button>
+              <button type="button" class="btn">Theme 02</button>
+              <button type="button" class="btn">Theme 03</button>
+              <button type="button" class="btn">Theme 04</button>
+            </div>
+            <div class="showback">
+              <h4>
+                <i class="fa fa-angle-right"></i>
+                <span>Buttons Group</span>
+              </h4>
+              <div class="btn-group">
+                <button type="button" class="btn btn-default">Left</button>
+                <button type="button" class="btn btn-default">Middle</button>
+                <button type="button" class="btn btn-default">Right</button>
+              </div>
+            </div>
+            <div class="showback">
+              <h4>
+                <i class="fa fa-angle-right"></i>
+                <span>Button Nesting</span>
+              </h4>
+                <div class="btn-group" role="group" aria-label="...">
+                  <button type="button" class="btn btn-default">1</button>
+                  <button type="button" class="btn btn-default">2</button>
+                  <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dropdown
+                      <span class="caret"></span>
+                    </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Dropdown link</a></li>
+                    <li><a href="#">Dropdown link</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="showback">
+              <h4>
+                <i class="fa fa-angle-right"></i>
+                <span>Split Buttons</span>
+              </h4>
+              <div class="btn-group">
+                <button type="button" class="btn">Action</button>
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="caret"></span>
+                  <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class=""></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xs-12">
+            <div class="showback">
+              <h4>
+                <i class="fa fa-angle-right"></i>
+                <span>Button Sizes</span>
+              </h4>
+              <div>
+                <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                <button type="button" class="btn btn-default btn-lg">Large button</button>
+              </div>
+              <div style="padding-top:10px">
+                <button type="button" class="btn btn-primary">Default button</button>
+                <button type="button" class="btn btn-default">Default button</button>
+              </div>
+              <div style="padding-top:10px">
+                <button type="button" class="btn btn-primary btn-sm">Small button</button>
+                <button type="button" class="btn btn-default btn-sm">Small button</button>
+              </div>
+              <div style="padding-top:10px">
+                <button type="button" class="btn btn-primary btn-xs">Extra small button</button>
+                <button type="button" class="btn btn-default btn-xs">Extra small button</button>
+              </div>
+            </div>
+            <div class="showback">
+              <h4>
+                <i class="fa fa-angle-right"></i>
+                <span>Block Buttons</span>
+              </h4>
+              <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+              <button type="button" class="btn btn-default btn-lg btn-block">Block level button</button>
+            </div>
+            <div class="showback">
+              <h4>
+                <i class="fa fa-angle-right"></i>
+                <span>Justified Buttons</span>
+              </h4>
+              <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                <div class="btn-group" role="group">
+                  <button type="button" class="btn btn-theme">Left</button>
+                </div>
+                <div class="btn-group" role="group">
+                  <button type="button" class="btn btn-theme">Middle</button>
+                </div>
+                <div class="btn-group" role="group">
+                  <button type="button" class="btn btn-theme">Right</button>
+                </div>
+              </div>
+            </div>
+            <div class="showback">
+              <h4>
+                <i class="fa fa-angle-right"></i>
+                <span>Dropdown Buttons</span>
+              </h4>
+              <div class="btn-group">
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Action <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div>
+              <div class="btn-group">
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Action <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="showback">
+              <h4>
+                <i class="fa fa-angle-right"></i>
+                <span>Buttons With Icons</span>
+              </h4>
+              <button type="button" class="btn">
+                <i class="fa fa-cog"></i>
+                <span>Button</span>
+              </button>
+              <button type="button" class="btn">
+                <i class="fa fa-check"></i>
+                <span>Button</span>
+              </button>
+              <button type="button" class="btn">
+                <i class="fa fa-heart"></i>
+                <span>Button</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common-scripts.js"></script>
+  </body>
+</html>

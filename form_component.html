@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>Adventure time: Dashboard</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/adventure-time-theme.css" rel="stylesheet">
+    <link href="css/adventure-time-theme-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  <div id="container">
+    <header class="header black-bg">
+      <div class="container-fluid">
+        <div class="sidebar-toggle-box">
+        	<i class="fa fa-bars"></i>
+        </div>
+          <a href="dashboard.html" class="logo hidden-xs"><b>ADVENTURE TIME: DASHBOARD</b></a>
+          <a href="dashboard.html" class="logo visible-xs"><b>ADV.TIME</b></a>
+          <ul class="top-menu pull-right">
+            <li><a class="logout" href="login.html">Logout</a></li>
+          </ul>
+      </div>
+    </header>
+    <div class="nav-collapse" id="sidebar">
+      <ul class="sidebar-menu">
+        <p class="text-center">
+          <a href="profile.html">
+            <img class="img-circle" width="60" src="img/profile_avatar.png">
+          </a>
+        </p>
+        <h5 class="text-center">Bonnibel Bubblegum</h5>
+        <li class="sub-menu">
+          <a href="dashboard.html">
+            <i class="fa fa-tachometer"></i>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <li class="sub-menu">
+          <a href="buttons.html">
+            <i class="fa fa-desktop"></i>
+            <span>Buttons</span>
+          </a>
+        </li>
+        <li class="sub-menu">
+          <a href="progress.html">
+            <i class="fa fa-desktop"></i>
+            <span>Pogress Bars</span>
+          </a>
+        </li>
+        <li class="sub-menu">
+          <a class="active" href="form_component.html">
+            <i class="fa fa-cogs"></i>
+            <span>Forms</span>
+          </a>
+        </li>
+        <li class="sub-menu">
+          <a href="basic_tables.html">
+            <i class="fa fa-th"></i>
+            <span>Data Tables</span>
+          </a>
+        </li>
+        <li class="sub-menu">
+          <a href="gallery.html">
+            <i class="fa fa-tasks"></i>
+            <span>Gallery</span>
+          </a>
+        </li>
+        <li class="sub-menu">
+          <a href="login.html">
+            <i class="fa fa-book"></i>
+            <span>Login Pakes</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+   </div>
+    <section id="container">
+      <div id="main-content">
+        <div class="wrapper">
+	        <h3>
+	          <i class="fa fa-angle-right"></i>
+	          <span>Form Components</span>
+	        </h3>
+	        <div class="showback mt">
+	          <h4>
+	            <i class="fa fa-angle-right"></i>
+	            <span>Form Elemnts</span>
+	          </h4>
+	          <div class="row">
+						  <div class="form-group">
+						    <label for="inputEmail3" class="col-xs-2 control-label">Default</label>
+						    <div class="col-xs-10">
+						      <input type="email" class="form-control" id="inputEmail3">
+						    </div>
+						  </div>
+	          </div>
+	          <hr>
+	          <div class="row">
+	          	<div class="col-xs-2">
+	          		<label for="inputHelpBlock">Input with help text</label>
+	          	</div>
+	          	<div class="col-xs-10">
+								<input type="text" id="inputHelpBlock" class="form-control" aria-describedby="helpBlock">
+								<span id="helpBlock" class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+							</div>
+	          </div>
+	          <hr>
+	          <div class="row">
+	          	<div class="col-xs-2">
+	          		<label for="rounder">Rounder</label>
+	          	</div>
+	          	<div class="col-xs-10">
+	          		<input type="text" id="rounder" class="form-control round-form ">
+	          	</div>
+	          </div>
+	          <hr>
+	          <div class="row">
+	          	<div class="col-xs-2">
+	          		<label for="focusedInput">Input focus</label>
+	          	</div>
+	          	<div class="col-xs-10">
+	          		<input class="form-control" id="focusedInput" type="text" value="This is focused...">
+	          	</div>
+	          </div>
+	          <hr>
+	          <div class="row">
+	          	<div class="col-xs-2">
+	          		<label for="disabledInput">Disabled</label>
+	          	</div>
+	          	<div class="col-xs-10">
+	          		<input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
+	          	</div>
+	          </div>
+	          <hr>
+	          <div class="row">
+	          	<div class="form-group">
+						    <label for="inputEmail3" class="col-xs-2 control-label">Placeholder</label>
+						  		<div class="col-xs-10">
+						    		<input type="email" class="form-control" id="inputEmail3" placeholder="Placeholder">
+					    		</div>
+	          	</div>
+	          </div>
+	          <hr>
+	          <div class="row">
+	          	<div class="form-group">
+					    	<label class="col-xs-2 control-label">Static control</label>
+						    	<div class="col-xs-10">
+						      	<p class="form-control-static">email@example.com</p>
+					  			</div>
+					  	</div>
+	          </div>
+	          <hr>
+	        </div>
+	      	<div class="showback mt">
+	      		<h3>
+	      			<i class="fa fa-angle-right"></i>
+	      			<span>Inline Form</span>
+	      		</h3>
+	      		<div class="row">
+		      		<div class="col-xs-12">
+		      			<form class="form-inline">
+								  <div class="form-group">
+								    <input type="text" class="form-control" id="exampleInputName2" placeholder="Enter email">
+								  </div>
+								  <div class="form-group">
+								    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Password">
+								  </div>
+								  <button type="submit" class="btn">Sign in</button>
+								</form>
+		      		</div>
+	      		</div>
+	    		</div>
+	    		<div class="showback mt">
+	    			<h3>
+	    				<i class="fa fa-angle-right"></i>
+	    				<span>Input Messages</span>
+	    			</h3>
+	    			<div class="row">
+	    				<div class="form-group has-success pt-25">
+	    					<label class="col-xs-2 control-label" for="inputSuccess1">Input with success</label>
+    						<div class="col-xs-10">
+    							<input type="text" class="form-control" id="inputSuccess1">
+    						</div>
+	    				</div>
+	    			</div>
+	    			<div class="row">
+	    				<div class="form-group has-warning pt-25">
+							  <label class="col-xs-2 control-label" for="inputWarning1">Input with warning</label>
+							  <div class="col-xs-10">
+							  	<input type="text" class="form-control" id="inputWarning1">
+							  </div>
+							</div>
+	    			</div>
+	    			<div class="row">
+	    				<div class="form-group has-error pt-25">
+							  <label class="col-xs-2 control-label" for="inputError1">Input with error</label>
+							  <div class="col-xs-10">
+							  	<input type="text" class="form-control" id="inputError1">
+							  </div>
+							</div>
+	    			</div>
+	    		</div>
+	    		<div class="showback mt">
+	    			<h3>
+	    				<i class="fa fa-angle-right"></i>
+	    				<span>Checkboxes, Radios & Selects</span>
+	    			</h3>
+	    			<div class="row">
+	    				<div class="col-xs-12">
+	    					<div class="checkbox">
+								  <label>
+								    <input type="checkbox" value="">
+								    Option one is this and that&mdash;be sure to include why it's great
+								  </label>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="optionsRadios" id="optionsRadio1" value="option1" checked>
+								    Option one is this and that&mdash;be sure to include why it's great
+								  </label>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="optionsRadio" id="optionsRadio2" value="option2">
+								    Option two can be something else and selecting it will deselect option one
+								  </label>
+								</div>
+	    				</div>
+	    			</div>
+	    			<hr>
+	    			<div class="row">
+	    				<div class="col-xs-12">
+	    					<label class="checkbox-inline">
+								  <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+								</label>
+								<label class="checkbox-inline">
+								  <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+								</label>
+								<label class="checkbox-inline">
+								  <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+								</label>
+	    				</div>
+	    			</div>
+	    			<hr>
+	    			<div class="row">
+	    				<div class="col-xs-12">
+	    					<select class="form-control">
+								  <option>1</option>
+								  <option>2</option>
+								  <option>3</option>
+								  <option>4</option>
+								  <option>5</option>
+								</select>
+	    				</div>
+	    			</div>
+	    			<div class="row pt-25">
+	    				<div class="col-xs-12">
+	    					<select multiple class="form-control">
+								  <option>1</option>
+								  <option>2</option>
+								  <option>3</option>
+								  <option>4</option>
+								  <option>5</option>
+								</select>
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+    </section>
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common-scripts.js"></script>
+  </body>
+</html>
